@@ -8,7 +8,7 @@ import moviesimple from '../Assets/portfolio/moviesimple.png'
 import shopeeclone from '../Assets/portfolio/shopeeclone.png'
 import { Link } from 'react-scroll'
 
-export default function PortFolio() {
+export default function Skills() {
   const portfolios = [
     {
       id: 1,
