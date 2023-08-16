@@ -1,12 +1,14 @@
 import React from 'react'
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md'
 import bailu from '../Assets/bailu2.jpg'
+import me from '../Assets/me.jpg'
+
 import { Link } from 'react-scroll'
 
 export default function Home() {
   return (
     <div name='home' className='w-full h-full text-white bg-gradient-to-b via-black from-black to-gray-800'>
-      <div className='flex flex-col md:items-center gap-10 justify-center h-full max-w-screen-lg px-4  pt-[120px] md:pt-[150px] mx-auto md:flex-row'>
+      <div className='flex flex-col md:items-center gap-10 justify-between h-full max-w-screen-lg px-4  pt-[120px] md:pt-[150px] mx-auto md:flex-row'>
         <div className='flex flex-col justify-center h-full md:pt-0'>
           <h2 className='text-4xl font-bold text-white sm:text-7xl'>i'm tien ha </h2>
           <p className='max-w-md py-4 text-gray-500'>
@@ -29,7 +31,7 @@ export default function Home() {
           </div>
         </div>
         <div>
-          <img src={bailu} className='w-2/3 mx-auto rounded-2xl md:w-2/3 md:mr-0' alt='' />
+          <img src={me} className='w-2/3 max-h-[500px] mx-auto rounded-2xl md:w-full md:mr-0' alt='' />
         </div>
       </div>
     </div>

@@ -1,40 +1,109 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import html from '../Assets/icons8-html5-480.png'
-import css from '../Assets/icons8-css-logo-480.png'
-import react from '../Assets/icons8-react-480.png'
-import tailwind from '../Assets/icons8-tailwindcss-480.png'
 import nodejs from '../Assets/icons8-nodejs-480.png'
 import sql from '../Assets/icons8-sql-server-480.png'
-import github from '../Assets/icons8-github-480.png'
-import typescript from '../Assets/icons8-typescript-480.png'
-import javascript from '../Assets/icons8-javascript-480.png'
-import mongodb from '../Assets/icons8-mongodb-480.png'
+import monkey from '../Assets/portfolio/MonkeyBlogging.png'
+import psdtohtml from '../Assets/portfolio/psdtohtml.png'
+import moviesimple from '../Assets/portfolio/moviesimple.png'
+import shopeeclone from '../Assets/portfolio/shopeeclone.png'
+import folio from '../Assets/portfolio/folio.png'
 
-export default function Projects() {
-  const techs = [
-    { id: 1, src: html, title: 'HTML', style: 'shadow-orange-500' },
-    { id: 2, src: css, title: 'CSS', style: 'shadow-blue-500' },
-    { id: 3, src: javascript, title: 'JAVASCRIPT', style: 'shadow-yellow-500' },
-    { id: 4, src: typescript, title: 'TYPESCRIPT', style: 'shadow-blue-200' },
-    { id: 5, src: react, title: 'REACT', style: 'shadow-purple-500' },
-    { id: 6, src: tailwind, title: 'TAILWIND', style: 'shadow-orange-300' },
-    { id: 7, src: nodejs, title: 'NODEJS', style: 'shadow-green-500' },
-    { id: 8, src: sql, title: 'SQL', style: 'shadow-red-500' },
-    { id: 9, src: github, title: 'GITHUB', style: 'shadow-slate-500' },
-    { id: 10, src: mongodb, title: 'MongoDB', style: 'shadow-orange-500' }
+import { Link } from 'react-scroll'
+
+export default function Skills() {
+  const portfolios = [
+    {
+      id: 1,
+      src: psdtohtml,
+      code: 'https://github.com/hxtien1132/ProjectPsdToHtmlCss',
+      demo: 'https://hxtien1132.github.io/Psd-Convert-Html/',
+      title: 'Psd Convert Html'
+    },
+    {
+      id: 2,
+      src: folio,
+      code: 'https://github.com/hxtien1132/Reactjs-Portfolio',
+      demo: 'https://reactjs-portfolio-roan.vercel.app/',
+      title: 'Reactjs Portfolio'
+    },
+    {
+      id: 3,
+      src: monkey,
+      code: 'https://github.com/hxtien1132/react-monkey-blogging',
+      demo: '',
+      title: 'React Monkey Blogging'
+    },
+    {
+      id: 4,
+      src: moviesimple,
+      code: 'https://github.com/hxtien1132/Project-movie',
+      demo: 'https://react-movie-simple-red.vercel.app//',
+      title: 'React Movie Simple'
+    },
+    {
+      id: 5,
+      src: shopeeclone,
+      code: 'https://github.com/hxtien1132/shopee',
+      demo: 'https://shopee-eosin.vercel.app/',
+      title: 'React Shopee Clone'
+    },
+    {
+      id: 6,
+      src: nodejs,
+      code: 'https://github.com/hxtien1132/Project-movie',
+      demo: '',
+      title: 'Project Psd Convert Html'
+    }
   ]
+  const btnDemoRef = useRef()
+  const btnCodeRef = useRef()
+  const handleOnClick = (string) => {
+    if (string === 'demo') {
+      btnDemoRef.current.click()
+    } else {
+      btnCodeRef.current.click()
+    }
+  }
   return (
-    <div name='experience' className='w-full md:min-h-screen bg-gradient-to-b from-gray-800 to-black'>
-      <div className='flex flex-col justify-center w-full h-full max-w-screen-lg p-4 pt-[150px] mx-auto text-white '>
-        <div>
-          <p className='inline p-2 text-4xl font-bold border-b-4 border-gray-500'>Skills</p>
-          <p className='py-6'>There are the technologies I've worked with</p>
+    <div name='portfolio' className='w-full text-white md:h-screen bg-gradient-to-b from-black to-gray-800 '>
+      <div className='flex flex-col justify-center w-full h-full max-w-screen-lg p-4 pt-[150px] mx-auto '>
+        <div className='pb-8'>
+          <p className='inline text-4xl font-bold border-b-4 border-gray-500 shadow-md shadow-gray-600'>Projects</p>
+
+          <p className='py-6'>Check out some of my projects right here</p>
         </div>
-        <div className='grid w-full grid-cols-2 gap-8 px-12 py-8 text-center sm:grid-cols-3 sm:px-0'>
-          {techs.map((tech) => (
-            <div key={tech.id} className={`py-2 duration-500 rounded-lg shadow-md hover:scale-105 ${tech.style}`}>
-              <img src={tech.src} alt='' className='w-20 mx-auto' />
-              <p>{tech.title}</p>
+        <div className='grid gap-8 px-12 sm:grid-cols-2 md:grid-cols-3 sm:px-0'>
+          {portfolios.map((portfolio) => (
+            <div key={portfolio.id}>
+              <div className='flex flex-col items-center overflow-hidden rounded-lg shadow-md shadow-gray-600'>
+                <div className='h-[150px] overflow-hidden'>
+                  <img src={portfolio.src} alt='' className='w-full h-full duration-200 rounded-md hover:scale-110' />
+                </div>
+                <div className='flex items-center justify-center'>
+                  <button className='w-1/2 px-4 py-2 m-3 font-semibold text-black duration-200 rounded-lg bg-slate-600 hover:scale-105 bg-gradient-to-r from-cyan-500 to-blue-500'>
+                    {portfolio.demo ? (
+                      <a href={portfolio.demo} ref={btnDemoRef} target='blank'>
+                        Demo
+                      </a>
+                    ) : (
+                      'Demo'
+                    )}
+                  </button>
+                  <button
+                    onClick={() => handleOnClick('code')}
+                    className='w-1/2 px-4 py-2 m-3 font-semibold duration-200 rounded-lg hover:scale-105 bg-gradient-to-r from-green-400 to-blue-500'
+                  >
+                    {portfolio.code ? (
+                      <a href={portfolio.code} ref={btnCodeRef} target='blank'>
+                        Code
+                      </a>
+                    ) : (
+                      'Code'
+                    )}
+                  </button>
+                </div>
+              </div>
+              <div className='pt-3 font-bold text-center text-white '>{portfolio.title}</div>
             </div>
           ))}
         </div>

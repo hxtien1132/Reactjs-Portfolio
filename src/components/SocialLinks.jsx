@@ -11,7 +11,7 @@ export default function SocialLinks() {
           Facebook <FaFacebook size={30} />
         </>
       ),
-      href: 'http://www.facebook.com',
+      href: 'https://www.facebook.com/profile.php?id=100008980843426',
       style: 'rounded-tr-md'
     },
     {
