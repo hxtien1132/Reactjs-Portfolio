@@ -37,14 +37,14 @@ export default function Skills() {
       id: 4,
       src: moviesimple,
       code: 'https://github.com/hxtien1132/Project-movie',
-      demo: 'https://react-movie-simple-red.vercel.app//',
+      demo: 'https://react-movie-simple-hxtien1132.vercel.app/',
       title: 'React Movie Simple'
     },
     {
       id: 5,
       src: shopeeclone,
       code: 'https://github.com/hxtien1132/shopee',
-      demo: 'https://shopee-eosin.vercel.app/',
+      demo: 'https://shopee-hxtien1132.vercel.app/',
       title: 'React Shopee Clone'
     },
     {
@@ -52,7 +52,7 @@ export default function Skills() {
       src: nodejs,
       code: 'https://github.com/hxtien1132/Project-movie',
       demo: '',
-      title: 'Project Psd Convert Html'
+      title: 'Nodejs Twitter Clone'
     }
   ]
   const btnDemoRef = useRef()
