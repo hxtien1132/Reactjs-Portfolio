@@ -50,9 +50,9 @@ export default function Skills() {
     {
       id: 6,
       src: nodejs,
-      code: 'https://github.com/hxtien1132/Project-movie',
-      demo: '',
-      title: 'Nodejs Twitter Clone'
+      demo: 'https://client-side-shoeshop-080f5d1cc34d.herokuapp.com/',
+      code: 'ttps://git.heroku.com/client-side-shoeshop.git',
+      title: 'Nodejs Shoeshop'
     }
   ]
   const btnDemoRef = useRef()
