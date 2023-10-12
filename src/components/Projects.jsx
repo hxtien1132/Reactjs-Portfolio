@@ -15,8 +15,8 @@ export default function Skills() {
     {
       id: 1,
       src: psdtohtml,
-      code: 'https://github.com/hxtien1132/Psd-HtmlCss',
-      demo: 'https://psd-html-css1.vercel.app/',
+      code: 'https://github.com/hxtien1132/Psd-HtmlScss',
+      demo: 'https://vercel.com/hxtien1132/psd-html-scss',
       title: 'Psd Convert Html'
     },
     {
