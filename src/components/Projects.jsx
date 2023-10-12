@@ -1,15 +1,11 @@
 import React, { useRef } from 'react'
-import html from '../Assets/icons8-html5-480.png'
 import nodejs from '../Assets/icons8-nodejs-480.png'
-import sql from '../Assets/icons8-sql-server-480.png'
 import monkey from '../Assets/portfolio/MonkeyBlogging.png'
 import psdtohtml from '../Assets/portfolio/psdtohtml.png'
 import moviesimple from '../Assets/portfolio/moviesimple.png'
 import shopeeclone from '../Assets/portfolio/shopeeclone.png'
 import folio from '../Assets/portfolio/folio.png'
-
-import { Link } from 'react-scroll'
-
+import shoeshop from '../Assets/portfolio/shoeshop.png'
 export default function Skills() {
   const portfolios = [
     {
@@ -49,7 +45,7 @@ export default function Skills() {
     },
     {
       id: 6,
-      src: nodejs,
+      src: shoeshop,
       demo: 'https://client-side-shoeshop-080f5d1cc34d.herokuapp.com/',
       code: 'ttps://git.heroku.com/client-side-shoeshop.git',
       title: 'Nodejs Shoeshop'
