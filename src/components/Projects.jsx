@@ -5,14 +5,16 @@ import psdtohtml from '../Assets/portfolio/psdtohtml.png'
 import moviesimple from '../Assets/portfolio/moviesimple.png'
 import shopeeclone from '../Assets/portfolio/shopeeclone.png'
 import folio from '../Assets/portfolio/folio.png'
+import scss from '../Assets/portfolio/scss.png'
+
 import shoeshop from '../Assets/portfolio/shoeshop.png'
 export default function Skills() {
   const portfolios = [
     {
       id: 1,
-      src: psdtohtml,
+      src: scss,
       code: 'https://github.com/hxtien1132/Psd-HtmlScss',
-      demo: 'https://vercel.com/hxtien1132/psd-html-scss',
+      demo: 'https://psd-html-scss.vercel.app/',
       title: 'Psd Convert Html'
     },
     {
