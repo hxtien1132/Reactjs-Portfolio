@@ -48,8 +48,8 @@ export default function Skills() {
     {
       id: 6,
       src: shoeshop,
-      demo: 'https://client-side-shoeshop-080f5d1cc34d.herokuapp.com/',
-      code: 'ttps://git.heroku.com/client-side-shoeshop.git',
+      demo: 'https://shoeshop-client-eosin.vercel.app/',
+      code: 'https://github.com/hxtien1132/shoeshop-client',
       title: 'Nodejs Shoeshop'
     }
   ]
