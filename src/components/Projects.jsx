@@ -13,7 +13,7 @@ export default function Skills() {
     {
       id: 1,
       src: scss,
-      code: 'https://github.com/hxtien1132/Psd-HtmlScss',
+      code: 'https://github.com/hxtien1132/Psd-HtmlCss',
       demo: 'https://psd-html-scss.vercel.app/',
       title: 'Psd Convert Html'
     },
