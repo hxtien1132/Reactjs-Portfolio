@@ -9,6 +9,7 @@ import typescript from '../Assets/icons8-typescript-480.png'
 import javascript from '../Assets/icons8-javascript-480.png'
 import mongodb from '../Assets/icons8-mongodb-480.png'
 import materialUi from '../Assets/icons8-material-ui-480.png'
+import php from '../Assets/php.png'
 
 export default function Projects() {
   const techs = [
@@ -22,7 +23,8 @@ export default function Projects() {
     { id: 8, src: nodejs, title: 'NODEJS', style: 'shadow-green-500' },
     { id: 9, src: sql, title: 'SQL', style: 'shadow-red-500' },
     { id: 10, src: github, title: 'GITHUB', style: 'shadow-slate-500' },
-    { id: 11, src: mongodb, title: 'MongoDB', style: 'shadow-orange-500' }
+    { id: 11, src: mongodb, title: 'MongoDB', style: 'shadow-orange-500' },
+    { id: 12, src: php, title: 'PHP', style: 'shadow-blue-500' }
   ]
   return (
     <div name='experience' className='w-full md:min-h-screen bg-gradient-to-b from-gray-800 to-black'>

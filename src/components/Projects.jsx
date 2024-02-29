@@ -6,7 +6,7 @@ import moviesimple from '../Assets/portfolio/moviesimple.png'
 import shopeeclone from '../Assets/portfolio/shopeeclone.png'
 import folio from '../Assets/portfolio/folio.png'
 import scss from '../Assets/portfolio/scss.png'
-
+// import php from '../Assets/portfolio/php.png'
 import shoeshop from '../Assets/portfolio/shoeshop.png'
 export default function Skills() {
   const portfolios = [
