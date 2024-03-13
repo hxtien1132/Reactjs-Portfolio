@@ -8,6 +8,7 @@ import SocialLinks from './components/SocialLinks'
 import Projects from './components/Projects'
 
 export default function App() {
+  console.log('123123')
   return (
     <div>
       <NavBar />
