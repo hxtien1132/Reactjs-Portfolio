@@ -2,7 +2,7 @@ import React, { useRef } from 'react'
 import nodejs from '../Assets/icons8-nodejs-480.png'
 import monkey from '../Assets/portfolio/MonkeyBlogging.png'
 import psdtohtml from '../Assets/portfolio/psdtohtml.png'
-import moviesimple from '../Assets/portfolio/moviesimple.png'
+import moviesimple from '../Assets/portfolio/moviemaster.png'
 import shopeeclone from '../Assets/portfolio/shopeeclone.png'
 import folio from '../Assets/portfolio/folio.png'
 import scss from '../Assets/portfolio/scss.png'
@@ -34,8 +34,8 @@ export default function Skills() {
     {
       id: 4,
       src: moviesimple,
-      code: 'https://github.com/hxtien1132/Project-movie',
-      demo: 'https://react-movie-simple-hxtien1132.vercel.app/',
+      code: 'https://github.com/hxtien1132/project-movie-master',
+      demo: 'https://project-movie-master.vercel.app',
       title: 'React Movie Simple'
     },
     {
