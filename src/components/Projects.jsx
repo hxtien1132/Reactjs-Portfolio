@@ -6,7 +6,7 @@ import moviesimple from '../Assets/portfolio/moviemaster.png'
 import shopeeclone from '../Assets/portfolio/shopeeclone.png'
 import folio from '../Assets/portfolio/folio.png'
 import scss from '../Assets/portfolio/scss.png'
-// import php from '../Assets/portfolio/php.png'
+import java from '../Assets/portfolio/java.png'
 import shoeshop from '../Assets/portfolio/shoeshop.png'
 export default function Skills() {
   const portfolios = [
@@ -24,26 +24,27 @@ export default function Skills() {
       demo: 'https://reactjs-portfolio-roan.vercel.app/',
       title: 'Reactjs Portfolio'
     },
+
     {
       id: 3,
-      src: monkey,
-      code: 'https://github.com/hxtien1132/react-monkey-blogging',
-      demo: '',
-      title: 'React Monkey Blogging'
-    },
-    {
-      id: 4,
       src: moviesimple,
       code: 'https://github.com/hxtien1132/project-movie-master',
       demo: 'https://project-movie-master.vercel.app',
       title: 'React Movie Simple'
     },
     {
-      id: 5,
+      id: 4,
       src: shopeeclone,
       code: 'https://github.com/hxtien1132/shopee',
       demo: 'https://shopee-hxtien1132.vercel.app/',
       title: 'React Shopee Clone'
+    },
+    {
+      id: 5,
+      src: java,
+      code: 'https://github.com/hxtien1132/ProjectWebSpringBoot',
+      demo: '',
+      title: 'Java Electronic Shop'
     },
     {
       id: 6,
