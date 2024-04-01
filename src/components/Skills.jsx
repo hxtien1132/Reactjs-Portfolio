@@ -9,6 +9,8 @@ import typescript from '../Assets/icons8-typescript-480.png'
 import javascript from '../Assets/icons8-javascript-480.png'
 import mongodb from '../Assets/icons8-mongodb-480.png'
 import materialUi from '../Assets/icons8-material-ui-480.png'
+import bs from '../Assets/icons8-bootstrap-480.png'
+
 import php from '../Assets/php.png'
 export default function Projects() {
   const techs = [
@@ -17,7 +19,7 @@ export default function Projects() {
     { id: 3, src: javascript, title: 'JAVASCRIPT', style: 'shadow-yellow-500' },
     { id: 4, src: typescript, title: 'TYPESCRIPT', style: 'shadow-blue-200' },
     { id: 5, src: react, title: 'REACT', style: 'shadow-purple-500' },
-    { id: 6, src: materialUi, title: 'MaterialUi', style: 'shadow-blue-500' },
+    { id: 6, src: bs, title: 'Bootstrap', style: 'shadow-blue-500' },
     { id: 7, src: tailwind, title: 'TAILWIND', style: 'shadow-orange-300' },
     { id: 8, src: nodejs, title: 'NODEJS', style: 'shadow-green-500' },
     { id: 9, src: sql, title: 'SQL', style: 'shadow-red-500' },
