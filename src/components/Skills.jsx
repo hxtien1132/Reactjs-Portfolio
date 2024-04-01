@@ -18,14 +18,14 @@ export default function Projects() {
     { id: 2, src: css, title: 'CSS', style: 'shadow-blue-500' },
     { id: 3, src: javascript, title: 'JAVASCRIPT', style: 'shadow-yellow-500' },
     { id: 4, src: typescript, title: 'TYPESCRIPT', style: 'shadow-blue-200' },
-    { id: 5, src: react, title: 'REACT', style: 'shadow-purple-500' },
-    { id: 6, src: bs, title: 'Bootstrap', style: 'shadow-blue-500' },
-    { id: 7, src: tailwind, title: 'TAILWIND', style: 'shadow-orange-300' },
+    { id: 5, src: bs, title: 'Bootstrap', style: 'shadow-blue-500' },
+    { id: 6, src: tailwind, title: 'TAILWIND', style: 'shadow-orange-300' },
+    { id: 7, src: react, title: 'REACT', style: 'shadow-purple-500' },
     { id: 8, src: nodejs, title: 'NODEJS', style: 'shadow-green-500' },
-    { id: 9, src: sql, title: 'SQL', style: 'shadow-red-500' },
+    { id: 9, src: php, title: 'php', style: 'shadow-green-500' },
     { id: 10, src: github, title: 'GITHUB', style: 'shadow-slate-500' },
-    { id: 11, src: mongodb, title: 'MongoDB', style: 'shadow-orange-500' },
-    { id: 12, src: php, title: 'php', style: 'shadow-green-500' }
+    { id: 11, src: sql, title: 'SQL', style: 'shadow-red-500' },
+    { id: 12, src: mongodb, title: 'MongoDB', style: 'shadow-orange-500' }
   ]
   return (
     <div name='experience' className='w-full md:min-h-screen bg-gradient-to-b from-gray-800 to-black'>
