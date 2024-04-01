@@ -10,7 +10,6 @@ import javascript from '../Assets/icons8-javascript-480.png'
 import mongodb from '../Assets/icons8-mongodb-480.png'
 import materialUi from '../Assets/icons8-material-ui-480.png'
 import php from '../Assets/php.png'
-import java from '../Assets/icons8-spring-boot-480.png'
 export default function Projects() {
   const techs = [
     { id: 1, src: html, title: 'HTML', style: 'shadow-orange-500' },
@@ -24,7 +23,7 @@ export default function Projects() {
     { id: 9, src: sql, title: 'SQL', style: 'shadow-red-500' },
     { id: 10, src: github, title: 'GITHUB', style: 'shadow-slate-500' },
     { id: 11, src: mongodb, title: 'MongoDB', style: 'shadow-orange-500' },
-    { id: 12, src: java, title: 'java', style: 'shadow-green-500' }
+    { id: 12, src: php, title: 'php', style: 'shadow-green-500' }
   ]
   return (
     <div name='experience' className='w-full md:min-h-screen bg-gradient-to-b from-gray-800 to-black'>
