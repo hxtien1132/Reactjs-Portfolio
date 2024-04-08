@@ -10,8 +10,8 @@ import javascript from '../Assets/icons8-javascript-480.png'
 import mongodb from '../Assets/icons8-mongodb-480.png'
 import materialUi from '../Assets/icons8-material-ui-480.png'
 import bs from '../Assets/icons8-bootstrap-480.png'
-
-import php from '../Assets/php.png'
+import java from '../Assets/icons8-spring-boot-480.png'
+import php from '../Assets/.png'
 export default function Projects() {
   const techs = [
     { id: 1, src: html, title: 'HTML', style: 'shadow-orange-500' },
@@ -22,7 +22,7 @@ export default function Projects() {
     { id: 6, src: tailwind, title: 'TAILWIND', style: 'shadow-orange-300' },
     { id: 7, src: react, title: 'REACT', style: 'shadow-purple-500' },
     { id: 8, src: nodejs, title: 'NODEJS', style: 'shadow-green-500' },
-    { id: 9, src: php, title: 'php', style: 'shadow-green-500' },
+    { id: 9, src: java, title: 'java', style: 'shadow-green-500' },
     { id: 10, src: github, title: 'GITHUB', style: 'shadow-slate-500' },
     { id: 11, src: sql, title: 'SQL', style: 'shadow-red-500' },
     { id: 12, src: mongodb, title: 'MongoDB', style: 'shadow-orange-500' }

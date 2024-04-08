@@ -42,9 +42,9 @@ export default function Skills() {
     {
       id: 5,
       src: java,
-      code: 'https://github.com/hxtien1132/Project-php',
+      code: 'https://github.com/hxtien1132/ProjectSpringboot',
       demo: '',
-      title: 'Php Mobiles Shop'
+      title: 'Ecommerce Shop'
     },
     {
       id: 6,
