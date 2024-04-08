@@ -11,7 +11,7 @@ import mongodb from '../Assets/icons8-mongodb-480.png'
 import materialUi from '../Assets/icons8-material-ui-480.png'
 import bs from '../Assets/icons8-bootstrap-480.png'
 import java from '../Assets/icons8-spring-boot-480.png'
-import php from '../Assets/.png'
+// import php from '../Assets/.png'
 export default function Projects() {
   const techs = [
     { id: 1, src: html, title: 'HTML', style: 'shadow-orange-500' },
