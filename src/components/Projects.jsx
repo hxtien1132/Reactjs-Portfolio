@@ -44,7 +44,7 @@ export default function Skills() {
       src: java,
       code: 'https://github.com/hxtien1132/ProjectSpringboot',
       demo: '',
-      title: 'Ecommerce Shop'
+      title: 'Java Ecommerce'
     },
     {
       id: 6,
